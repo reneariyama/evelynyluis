@@ -1,0 +1,197 @@
+@font-face {
+	font-family: Ladies;
+	src: url(css/fonts/LadiesStyle.otf);
+}
+
+@font-face {
+	font-family: Abhaya;
+	src: url(css/fonts/AbhayaLibre-SemiBold.ttf);
+}
+
+@font-face {
+	font-family: JosefinSans;
+	src: url(css/fonts/JosefinSans-Regular.otf);
+}
+
+@font-face {
+	font-family: Now;
+	src: url(css/fonts/now.bold.otf);
+}
+
+@font-face{
+	font-family: Virtual;
+	src: url(css/fonts/Virtual-Regular.otf);
+}
+
+
+body, html{
+    height: 100%;
+    margin: 0;
+    font-family: Abhaya;
+    line-height: 180%;
+    color: #fff;
+    text-align: center;
+}
+
+
+
+
+.foto1{
+	background-image: url(images/1-10.jpg);
+	min-height: 100%;
+	position: relative;
+	opacity: .75;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.foto2{
+	background-image: url(images/1-2.jpg);
+	min-height: 10%;
+	position: relative;
+	opacity: 0.75;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.foto3{
+	background-image: url(images/2-10000.jpg);
+	min-height: 100%;
+	position: relative;
+	opacity: 0.75;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.foto4{
+	background-image: url(images/2-10-1.jpg);
+	min-height: 100%;
+	position: relative;
+	opacity: 0.75;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.foto5{
+		background-image: url(images/5.jpg);
+		min-height: 100%;
+		position: relative;
+		opacity: 0.75;
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+}
+
+.Inner_box{
+	max-width: 550px;
+	position: relative;
+	display: block;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,30%);
+	background: rgba(31, 43, 36, 0.8);
+	padding: 30px;
+	text-align: center;
+	letter-spacing: 2px;
+}
+
+.Inner_Box p{
+	top: 50%;
+	font-size: 18px;
+}
+
+p span{
+	background: rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.letrero0{
+	color: #fff;
+	font-size: 200%;
+	top: 10%;
+}
+
+.letrero{
+	color: #fff;
+	font-size: 450%;
+	top: 30%;
+}
+
+.letrero2{
+	color: #fff;
+	font-size: 450%;
+	top: 50%;
+}
+
+.letrero3-1{
+	color: #fff;
+	font-size: 200%;
+	bottom: 20%;
+}
+
+.letrero3{
+	color: #fff;
+	font-size: 200%;
+	bottom: 10%;
+}
+
+.letrero, .letrero2{
+	font-family: Ladies;
+}
+
+.letrero0, .letrero3-1,.letrero3{
+	font-family: Abhaya;
+}
+
+.letrero0, .letrero, .letrero2, .letrero3, .letrero3-1{
+	position: absolute;
+	width: 100%;
+	letter-spacing: 8px;
+	text-shadow: 0 0 10px #000;
+}
+
+.contadoroficial{
+	
+}
+
+
+.section{
+	padding: 50px 80px;
+}
+
+.dark{
+	background-color: #444;
+	color: #fff;
+}
+
+.overlay {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+  }
+
+@media (max-width:768px){
+	.letrero0{
+		font-size: 100%;
+	}
+	.letrero, .letrero2{
+		font-size: 300%;
+	}
+	.letrero2{
+		top: 44%;
+	}
+	.letrero3-1, .letrero3{
+		font-size: 100%;
+	}
+}
