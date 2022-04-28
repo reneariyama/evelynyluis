@@ -40,7 +40,7 @@ body, html{
 	background-image: url(images/1-10.jpg);
 	min-height: 100%;
 	position: relative;
-	opacity: .75;
+	opacity: .70;
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -48,8 +48,8 @@ body, html{
 }
 
 .foto2{
-	background-image: url(images/1-2.jpg);
-	min-height: 10%;
+	background-image: url(images/2p.jpg);
+	min-height: 100%;
 	position: relative;
 	opacity: 0.75;
 	background-position: center;
@@ -58,8 +58,18 @@ body, html{
 	background-attachment: fixed;
 }
 
+.letrero-contador{
+	color: #fff;
+	font-size: 150%;
+	bottom: 30%;
+}
+
+.contadoroficial{
+	padding-top: 650px;
+}
+
 .foto3{
-	background-image: url(images/2-10000.jpg);
+	background-image: url(images/2-01.jpg);
 	min-height: 100%;
 	position: relative;
 	opacity: 0.75;
@@ -70,7 +80,7 @@ body, html{
 }
 
 .foto4{
-	background-image: url(images/2-10001.jpg);
+	background-image: url(images/2-01-01.jpg);
 	min-height: 100%;
 	position: relative;
 	opacity: 0.75;
@@ -79,6 +89,29 @@ body, html{
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 }
+
+.foto6{
+	background-image: url(images/diseño-web-1.jpg);
+	min-height: 100%;
+	position: relative;
+	opacity: 0.75;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.foto7{
+	background-image: url(images/diseño-web-2.jpg);
+	min-height: 100%;
+	position: relative;
+	opacity: 0.75;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
 
 .foto5{
 		background-image: url(images/5.jpg);
@@ -125,19 +158,19 @@ p span{
 .letrero{
 	color: #fff;
 	font-size: 450%;
-	top: 30%;
+	top: 38%;
 }
 
 .letrero2{
 	color: #fff;
 	font-size: 450%;
-	top: 50%;
+	top: 55%;
 }
 
 .letrero3-1{
 	color: #fff;
 	font-size: 200%;
-	bottom: 20%;
+	bottom: 17%;
 }
 
 .letrero3{
@@ -154,16 +187,20 @@ p span{
 	font-family: Abhaya;
 }
 
-.letrero0, .letrero, .letrero2, .letrero3, .letrero3-1{
+.letrero0, .letrero3, .letrero3-1, .letrero-contador{
 	position: absolute;
 	width: 100%;
 	letter-spacing: 8px;
 	text-shadow: 0 0 10px #000;
 }
 
-.contadoroficial{
-	
+.letrero, .letrero2{
+	position: absolute;
+	width: 100%;
+	letter-spacing: 0px;
+	text-shadow: 0 0 10px #000;
 }
+
 
 
 .section{
@@ -178,20 +215,29 @@ p span{
 .overlay {
 	width: 100%;
 	height: 100%;
-	background-color: rgba(0, 0, 0, 0.5);
+	background-color: rgba(9, 102, 91, 0.99);
   }
 
 @media (max-width:768px){
 	.letrero0{
-		font-size: 100%;
+		font-size: 140%;
 	}
 	.letrero, .letrero2{
-		font-size: 300%;
+		font-size: 450%;
 	}
 	.letrero2{
-		top: 44%;
+		top: 50%;
 	}
 	.letrero3-1, .letrero3{
-		font-size: 100%;
+		font-size: 110%;
+	}
+}
+
+@media (max-width:667px){
+
+	.letrero-contador{
+		color: #fff;
+		font-size: 120%;
+		bottom: 28%;
 	}
 }
