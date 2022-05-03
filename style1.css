@@ -47,6 +47,17 @@ body, html{
 	background-attachment: fixed;
 }
 
+.foto1-9{
+	background-image: url(images/2p.jpg);
+	min-height: 100%;
+	position: relative;
+	opacity: 0.75;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
 .foto2{
 	background-image: url(images/2p.jpg);
 	min-height: 100%;
@@ -69,7 +80,7 @@ body, html{
 }
 
 .foto3{
-	background-image: url(images/2-01.jpg);
+	background-image: url(images/2-01-R.jpg);
 	min-height: 100%;
 	position: relative;
 	opacity: 0.75;
@@ -239,5 +250,56 @@ p span{
 		color: #fff;
 		font-size: 120%;
 		bottom: 28%;
+	}
+}
+
+@media (max-width: 414px){
+
+	
+	.letrero2{
+		top: 53%;
+	}
+
+	.letrero3, .letrero3-1, .letrero0{
+		font-size: 127%;
+		
+	}
+	
+	.contadoroficial{
+		padding-top: 720px;
+	}
+}
+
+
+@media (max-width:375px){
+	.contadoroficial{
+		padding-top: 497px;
+	}
+
+	.Inner_box{
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,0%);
+	}
+
+	.letrero2{
+		top: 55%;
+	}
+
+	.letrero, .letrero2{
+		font-size: 420%;
+	}
+
+
+}
+
+@media (max-width:390px){
+	
+	.contadoroficial{
+		padding-top: 680px;
+	}
+
+	.letrero-contador{
+		bottom: 23%;
 	}
 }
